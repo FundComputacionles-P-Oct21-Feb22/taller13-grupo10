@@ -1,0 +1,23 @@
+1.  Inicio
+2.    funcion principal()
+3.	 k,i[1-n]<--1920
+4. 	 k1,i[1-n]<--k
+5.	 cadena, x(200)[{A-Z]{a-z]{0-9}{BS}]<--" "
+6.	 residuo,[1-n]
+7.	 Para(j=0; 0<4;j++)
+7.	  Mientras (k1 > 0) entonces
+8.	    residuo<-- obtenerResiduo(a, i)
+9.	    cadena = "%d * 10 elevado a la potencia %d",residuo,j
+10.	    k1<-- obtenerDivision(a, i)
+11.	    fin mientras
+12.	 j= j+1
+13.	 fin para 
+14.   fin funcion principa()
+15.   funcion obtenerResiduo(a, i)
+16.	 a = a mod 10
+17.   fin funcion obtenerResiduo(a, i)
+18.   funcion obtenerDivision(a, i)
+19.	 a = a / 10
+20.   fin funcion obtenerDivision(a, i)
+21. Fin
+	  		
